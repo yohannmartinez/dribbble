@@ -18,7 +18,7 @@ body {
 }
 .imageMan {
   height: 100%;
-  background-image: url("./images/leftImage.png");
+  background-image: url("./leftImage.png");
   background-size: 100% 100%;
 }
 .right {
@@ -80,7 +80,7 @@ body {
 }
 .featureImage {
   flex-grow: 1;
-  background: url("./images/perso.png");
+  background: url("./perso.png");
   background-size: 100% 100%;
 }
 .featureTitle {
