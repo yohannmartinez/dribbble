@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  background: #f6c744;
+  flex: 1.3;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 30px;
+}
+.imageMan {
+  height: 100%;
+  background-image: url("./images/leftImage.png");
+  background-size: 100% 100%;
+}
+.right {
+  background: white;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+}
+.menu {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuItem {
+  border-radius: 30px;
+  cursor: pointer;
+}
+.lastItem {
+  padding: 5px 15px;
+  background-color: #f7ded4;
+}
+.title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+}
+.bottomContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.bottomTitle {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+.bottomFeatures {
+  display: flex;
+  height: 100%;
+}
+.feature {
+  flex: 1;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.feature1 {
+  background-color: #e05930;
+}
+.feature2 {
+  background-color: #c3bbfb;
+}
+.feature3 {
+  background-color: #719cef;
+}
+.featureImage {
+  flex-grow: 1;
+  background: url("./images/perso.png");
+  background-size: 100% 100%;
+}
+.featureTitle {
+  font-size: 15px;
+}
+.featureText {
+  font-size: 14px;
+  font-weight: 300;
+}
